@@ -20,9 +20,9 @@ public class DateHandler {
             "winter", "winter", "spring", "spring", "spring", "summer", 
             "summer", "summer", "autumn", "autumn", "autumn", "winter"
           };
-        //WE TAKE THE MONTH
+        
         int month = Integer.parseInt(date.split("-")[1]);
-        //GIVES THE SEASON AND -1 IS BECAUSE OF INDEXING
+        
         return seasons[month - 1];
     }
 
